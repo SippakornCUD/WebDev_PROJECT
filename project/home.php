@@ -88,7 +88,13 @@ if(isset($_SESSION["username"])){
                     }
                 }
             }
-        }   
+        }
+        function showcredit() {
+            document.getElementById("foot").className="showfooter";
+        }
+        function hidecredit() {
+            document.getElementById("foot").className="hidefooter";
+        }
     </script>
 </head>
 <body>
@@ -105,5 +111,12 @@ if(isset($_SESSION["username"])){
             Need an account? <a href="./register.html">Register</a>
         </article>
     </section>
+    <section class="credit_bt"><span class="credit" onmouseover="showcredit()" onmouseout="hidecredit()">:: Credit ::</span></section>
+    <footer id="foot" class="hidefooter">
+        <p>63-040626-1013-9 สิปปกร ใช้อุดม</p>
+        <p>63-040626-3008-3 ฌานิศา อิ่มลิ้มทาน</p>
+        <p>63-040626-3047-4 ศิริขวัญ ว่องวงศ์วิเศษ</p>
+        <p>63-040626-3048-2 ศิริญญา คอนพิทักษ์</p>
+    </footer>
 </body>
 </html>
