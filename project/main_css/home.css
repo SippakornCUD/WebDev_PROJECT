@@ -52,6 +52,37 @@ input{
     border:0.1em solid #870000;
     padding:0.5em;
 }
+.credit_bt{
+    text-align: center;
+    margin: 1%;
+}
+.credit{
+    padding:0.4em 1em;
+    background-color: #e1dcda;
+    text-align: center;
+    cursor: pointer;
+    border-radius:2em;
+    color: #3d2f2c;
+}
+footer{
+    padding: 1%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    background-color: #e1dcda;
+}
+.hidefooter{
+    display: none;
+}
+.showfooter{
+    display: block;
+}
+footer p{
+    color: #544540;
+    text-align: center;
+    margin: 0;
+}
 /*mobile*/
 @media (max-width:415px) {
 body{
